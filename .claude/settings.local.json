@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 15 uv run:*)",
+      "Bash(uv run:*)",
+      "Bash(uv sync:*)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(.venv/Scripts/pip show:*)",
+      "Bash(uv pip:*)",
+      "Bash(E:/MyProjects/Agent_Projects/投资研究与决策支持Agent/.venv/Scripts/python.exe -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(\"E:/MyProjects/Agent_Projects/投资研究与决策支持Agent/.venv/Scripts/python.exe\" -c \"from financieresearchagent.config.llm_config import get_llm; print\\(''Import OK''\\)\")",
+      "Bash(\"E:/MyProjects/Agent_Projects/投资研究与决策支持Agent/.venv/Scripts/python.exe\" -c \"import site; print\\(site.getsitepackages\\(\\)\\)\")",
+      "Bash(dir:*)"
+    ]
+  }
+}
